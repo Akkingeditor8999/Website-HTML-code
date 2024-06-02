@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: #eee;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: #eee;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  background-color: #ffcc66;
+  color: #333;
+}
+
+.special {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.special:hover {
+  background-color: #0069d9;
+}
+
+</style>
+</head>
+<body>
+
+<div class="calculator">
+  <div class="display">0</div>
+  <div>
+    <button class="button">(</button>
+    <button class="button">)</button>
+    <button class="button operator">%</button>
+    <button class="button operator">CE</button>
+  </div>
+  <div>
+    <button class="button">7</button>
+    <button class="button">8</button>
+    <button class="button">9</button>
+    <button class="button operator">÷</button>
+  </div>
+  <div>
+    <button class="button">4</button>
+    <button class="button">5</button>
+    <button class="button">6</button>
+    <button class="button operator">X</button>
+  </div>
+  <div>
+    <button class="button">1</button>
+    <button class="button">2</button>
+    <button class="button">3</button>
+    <button class="button operator">-</button>
+  </div>
+  <div>
+    <button class="button">0</button>
+    <button class="button">.</button>
+    <button class="button special">AC</button>
+    <button class="button operator">+</button>
+  </div>
+  <div>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+}
+
+.calculator {
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background-color: #eee;
+  padding: 10px;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.button {
+  width: 60px;
+  height: 40px;
+  margin: 5px;
+  background-color: #eee;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.operator {
+  background-color: #ffcc66;
+  color: #333;
+}
+
+.special {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.special:hover {
+  background-color: #0069d9;
+}
+
+</style>
+</head>
+<body>
+
+<div class="calculator">
+  <div class="display">0</div>
+  <div>
+    <button class="button">(</button>
+    <button class="button">)</button>
+    <button class="button operator">%</button>
+    <button class="button operator">CE</button>
+  </div>
+  <div>
+    <button class="button">7</button>
+    <button class="button">8</button>
+    <button class="button">9</button>
+    <button class="button operator">÷</button>
+  </div>
+  <div>
+    <button class="button">4</button>
+    <button class="button">5</button>
+    <button class="button">6</button>
+    <button class="button operator">X</button>
+  </div>
+  <div>
+    <button class="button">1</button>
+    <button class="button">2</button>
+    <button class="button">3</button>
+    <button class="button operator">-</button>
+  </div>
+  <div>
+    <button class="button">0</button>
+    <button class="button">.</button>
+    <button class="button special">AC</button>
+    <button class="button operator">+</button>
+  </div>
+  <div>
+    <button class="button">Rad</button>
+    <button class="button">Deg</button>
+    <button class="button">x!</button>
+    <button class="button">Inv</button>
+  </div>
+  <div>
+    <button class="button">sin</button>
+    <button class="button">In</button>
+    <button class="button">π</button>
+    <button class="button">cos</button>
+  </div>
+  <div>
+    <button class="button">log</button>
+    <button class="button">e</button>
+    <button class="button">tan</button>
+    <button class="button">√</button>
+  </div>
+  <div>
+    <button class="button">Ans</button>
+    <button class="button">EXP</button>
+    <button class="button">x<sup>y</sup></button>
+    <button class="button special">=</button>
+  </div>
+</div>
+
+</body>
+</html>.operator {
+  background-color: #ffcc66;
+  color: #333;
+}
+
+.special {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.special:hover {
+  background-color: #0069d9;
+}
+
+</style>
+</head>
+<body>
+
+<div class="calculator">
+  <div class="display">0</div>
+  <div>
+    <button class="button">(</button>
+    <button class="button">)</button>
+    <button class="button operator">%</button>
+    <button class="button operator">CE</button>
+v>
+  <div>
+    <button class="button">7</button>
+    <button class="button">8</button>
+    <button class="button">9</button>
+    <button class="button operator">÷</button>
+  </div>
+  <div>
+    <button class="button">4</button>
+    <button class="button">5</button>
+    <button class="button">6</button>
+    <button class="button operator">X</button>
+  </div>
+  <div>
+    <button class="button">1</button>
+    <button class="button">2</button>
+    <button class="button">3</button>
+    <button class="button operator">-</button>
+  </div>
+  <div>
+    <button class="button">0</button>
+    <button class="button">.</button>
+    <button class="button special">AC</button>
+    <button class="button operator">+</button>
+  </div>
+  <div>
